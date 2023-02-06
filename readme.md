@@ -18,4 +18,11 @@ let's play with file using "fs" module and try to read the readme of this repo
     we assure the reading to be synchronous so if there is a code after this call it should wait the `readFile` to be terminated
 - by using [readFile](non-blocking-action.js):
     we should pass an callback `cb` to every asynchronous function in node to assure the execution.
-    in our case node.js is not gonna wait readFile it will console.log after that it will show our result without respecting the order in the script
+    in our case node.js is not gonna wait readFile it will console.log it after that it will show our result without respecting the order in the script
+
+## achieving synchronization by using promises and async/await
+
+![promise async](assets/promise.png)
+
+ - the first example we used [Promises](promises.js) to make our code synchronize to respect the order of the execution of our game
+ - the second example we used [Async/await](async.js) to recreate the same behavior but with a different method
