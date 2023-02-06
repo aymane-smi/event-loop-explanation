@@ -2,17 +2,16 @@
 
 ## first scenario
 
-let's say that we don't want our script to be blocked by func() and wait for it to be executed then execute the reset of the script. in this case we can use setTimeout to stop func for 400ms then complite the execution(we guessed that func() gonna take about 400ms to be executed).
+let's say that we don't want our script to be blocked by `func()` and wait for it to be executed then execute the reset of the script. in this case we can use setTimeout to stop `func()` for 400ms then complete the execution(we guessed that `func()` goning to take about 400ms to be executed).
 
 ![timer explication](./assets/timer.png)
 
 [code example here](timer.js)
-
 ## second scenario
 
 ![non blocking using callbacks](./assets/non-blocking.png)
 
-be default node.js came with a rich api that support both asynchronous and synchronous functions.
+be default node.js came with a rich api that supports both asynchronous and synchronous functions.
 let's play with files using "fs" module and try to read the readme of this repo
 
 - by using [readFileSync](blocking-action.js):
