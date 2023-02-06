@@ -2,7 +2,7 @@ const input = process.argv[2];
 
 const guessHandle = (resolve, reject)=>{
     if(input == 10)
-        resolve("your guess is write");
+        resolve("your guess is right");
     else
         reject("bad guess");
 };

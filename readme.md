@@ -26,3 +26,7 @@ let's play with file using "fs" module and try to read the readme of this repo
 
  - the first example we used [Promises](promises.js) to make our code synchronize to respect the order of the execution of our game
  - the second example we used [Async/await](async.js) to recreate the same behavior but with a different method
+
+## golang async example
+
+in this [example](async.go) i used goroutine with channels to make my function asynchronize
