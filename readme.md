@@ -29,4 +29,4 @@ let's play with files using "fs" module and try to read the readme of this repo
 
 ## golang async example
 
-in this [example](async.go) i used goroutine with channels to make my function asynchronize
+in this [example](async.go) i used goroutine with channels to make my function asynchronous
